@@ -12,7 +12,7 @@ connectDB();
 const app = express();
 
 app.use(cors({
-      origin:'http://localhost:5173',
+      origin:'https://product-app-1-zzr5.onrender.com',
       credentials:true
 }));
 
