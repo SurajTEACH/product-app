@@ -13,7 +13,7 @@ const app = express();
 
 app.use(cors({
       origin:'https://product-app-1-zzr5.onrender.com',
-      credentials:true
+      
 }));
 
 app.use(express.json());
